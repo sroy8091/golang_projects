@@ -39,7 +39,7 @@ func main() {
 
 	}
 
-	fmt.Println(correct)
+	fmt.Printf("You scored %d out of %d\n", correct, len(problem))
 
 }
 
